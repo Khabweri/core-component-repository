@@ -1,10 +1,10 @@
 {
-    "name": "Khabweri/core-component-repository",
+    "name": "khabweri/core-component-repository",
     "description": "My awesome package",
     "keywords": [
         "core-component-repository"
     ],
-    "homepage": "https://github.com/Khabweri/core-component-repository",
+    "homepage": "https://github.com/khabweri/core-component-repository",
     "license": "MIT",
     "type": "library",
     "authors": [
