@@ -27,9 +27,8 @@ class CoreComponentRepository
         $addon->activated = 1; 
         $addon->save();
     
-        flash($addon->name . ' has been activated successfully.')->success();
-        
-        return true;
+        flash($addon->name . ' has been activated successfully.')->success();        
+        return redirect()->route('addons.index')->send();
     }
     
 }
